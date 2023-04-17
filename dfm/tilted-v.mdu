@@ -48,7 +48,6 @@ MapInterval                          = 1.				                                # M
 RstInterval                          = 0.						                              # Restart file output, given as "interval" "start period" "end period" (s)
 S1incinterval                        =                                       # Interval (m) in incremental file for waterlevels S1
 StatsInterval                        = 0.                                    # Interval (in s) between simulation statistics output.
-Writebalancefile                     = 0                                     # Write Balancefile, 1=yes, 0=no
 TimingsInterval                      =                                       # Timings output interval
 MapFormat                            = 4                                     # Map file format, 1: netCDF, 2: Tecplot, 3: netCFD and Tecplot, 4: NetCDF-UGRID
 Wrihis_balance                       = 1                                     # Write mass balance totals to his file (1=yes, 0=no)
