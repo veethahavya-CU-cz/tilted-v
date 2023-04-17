@@ -54,7 +54,7 @@ ic = fp.mf6.ModflowGwfic(gwf, strt=gw_ini)
 
 ss = np.full((nlay,ne), 1e-5)
 icv = np.ones((nlay,ne))
-sto = fp.mf6.ModflowGwfsto(gwf, save_flows=True, iconvert=icv, ss=ss)
+sto = fp.mf6.ModflowGwfsto(gwf, save_flows=True, iconvert=icv, ss=ss, sy=ss)
 
 rch = fp.mf6.ModflowGwfrch(gwf, maxbound=ne, stress_period_data=0, save_flows=True, print_input=True)
 
