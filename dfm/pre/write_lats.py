@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import pickle
 
 
@@ -19,4 +20,4 @@ with open('../lat.ext', 'w') as f:
         f.write("numCoordinates = 1\n")
         f.write("xCoordinates = {:f}\n".format(x))
         f.write("yCoordinates = {:f}\n".format(y))
-        f.write("discharge = 0.00\n")
+        f.write("discharge = realtime\n")
