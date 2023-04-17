@@ -1,0 +1,4 @@
+[boundary]
+quantity     = waterlevelbnd
+locationfile = outlet.pli
+forcingfile  = outlet.bc

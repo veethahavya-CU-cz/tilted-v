@@ -1,0 +1,4 @@
+* cell2d in MF6 and face_nodes in DFM are in the same order, i.e. they share the same element indexing (checked .disv against ncdump)
+    - but note - flopy does 0-based indexing while DFM (even via BMI) does 1-based indexing
+X HOWEVER, the nodes are renumbered in DFM during run!!!
+    - so the disv file needs to be built on the basis of the _map.nc file for fidelity b/w DFM and MF6

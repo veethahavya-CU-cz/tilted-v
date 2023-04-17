@@ -1,0 +1,10 @@
+[forcing]
+Name = outlet_0001
+Function = timeseries
+Time-interpolation = linear
+Quantity = time
+Unit = seconds since 1995-02-01 00:00:00
+Quantity = waterlevelbnd
+Unit = m
+000000 100.07
+432000 100.07
