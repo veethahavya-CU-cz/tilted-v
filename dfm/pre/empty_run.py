@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# need to add /opt/delft3dfm/lib to ld_path for successful run
+# need to add /opt/delflowfm/lib to ld_path for successful run
 import bmi.wrapper as bw
 
 

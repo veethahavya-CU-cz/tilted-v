@@ -14,7 +14,6 @@ from modflowapi import ModflowApi
 import bmi.wrapper as bw
 
 # subprocess.run("bash -c 'source /opt/intel/oneapi/setvars.sh --config=/opt/intel/oneapi/sv_exclude-py'", shell=True)
-# subprocess.run('export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/delft3dfm/lib', shell=True)
 
 
 ### set-up and initialize gwswex
